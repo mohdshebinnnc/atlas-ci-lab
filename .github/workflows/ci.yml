@@ -19,7 +19,7 @@ jobs:
   deploy-check:
     needs: test
     runs-on: ubuntu-latest
-    permissionss:
+    permissions:
       contents: read
     steps:
       - name: Deploy
